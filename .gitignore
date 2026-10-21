@@ -256,4 +256,4 @@ cython_debug/
 #.idea/
 
 # Custom
-data/*
+data/
