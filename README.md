@@ -20,11 +20,12 @@
 
 ## Практики
 
-| № | Тема | Материал |
-|---|---|---|
-| 01 | Окружение, репозиторий, git | [README с командами занятия](practices/01-python-environment-and-git/README.md) |
-| 02 | Минимум Python, NumPy, pandas | [02-python-data-stack.ipynb](practices/02-python-data-stack/02-python-data-stack.ipynb) |
+| №  | Тема                             | Материал |
+|----|----------------------------------|---|
+| 01 | Окружение, репозиторий, git      | [README с командами занятия](practices/01-python-environment-and-git/README.md) |
+| 02 | Минимум Python, NumPy, pandas    | [02-python-data-stack.ipynb](practices/02-python-data-stack/02-python-data-stack.ipynb) |
 | 03 | Полный проект машинного обучения | [03-end-to-end-project.ipynb](practices/03-end-to-end-project/03-end-to-end-project.ipynb) |
+| 04 | Задача Классификация (MNIST)     | [04-classification.ipynb](practices/04-classification/04-classification.ipynb) |
 
 ## Как запустить блокноты
 
