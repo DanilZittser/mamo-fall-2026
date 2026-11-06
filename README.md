@@ -26,6 +26,7 @@
 | 02 | Минимум Python, NumPy, pandas    | [02-python-data-stack.ipynb](practices/02-python-data-stack/02-python-data-stack.ipynb) |
 | 03 | Полный проект машинного обучения | [03-end-to-end-project.ipynb](practices/03-end-to-end-project/03-end-to-end-project.ipynb) |
 | 04 | Задача Классификация (MNIST)     | [04-classification.ipynb](practices/04-classification/04-classification.ipynb) |
+| 05 | Обучение лин. моделей (часть 1)  | [05-model-training.ipynb](practices/05-model-training/05-model-training.ipynb) |
 
 ## Как запустить блокноты
 
