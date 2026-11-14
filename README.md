@@ -8,6 +8,7 @@
 
 - `lectures/` — PDF-презентации лекций, по папке на лекцию;
 - `practices/` — практические занятия: по Jupyter-блокноту на занятие;
+- `self-study/` — самостоятельные работы на практиках: по Jupyter-блокноту на работу;
 - `requirements.txt` — зависимости для запуска блокнотов с точными версиями.
 
 ## Лекции
@@ -28,6 +29,17 @@
 | 04 | Задача Классификация (MNIST)     | [04-classification.ipynb](practices/04-classification/04-classification.ipynb) |
 | 05 | Обучение лин. моделей (часть 1)  | [05-model-training.ipynb](practices/05-model-training/05-model-training.ipynb) |
 
+## Самостоятельные работы
+
+Блокнот самостоятельной работы выполняется на практике и защищается преподавателю. Защищать можно любое число заданий — от одного до всех; баллы ставятся только за защищённые задания. Правила и критерии — в начале каждого блокнота.
+
+| № | Тема | Лекция | Блокнот |
+|---|---|---|---|
+| 01 | Метрики качества классификации | 03 | [01-classification-metrics.ipynb](self-study/01-classification-metrics.ipynb) |
+| 02 | Обучение линейной регрессии | 04 | [02-linear-regression.ipynb](self-study/02-linear-regression.ipynb) |
+| 03 | Градиентный спуск | 04 | [03-gradient-descent.ipynb](self-study/03-gradient-descent.ipynb) |
+| 04 | Регуляризация и логистическая регрессия | 05 | [04-regularization-logistic.ipynb](self-study/04-regularization-logistic.ipynb) |
+
 ## Как запустить блокноты
 
 На занятиях используется **Python 3.8**. Подробно каждая команда разобрана в [практике 01](practices/01-python-environment-and-git/README.md).
@@ -38,7 +50,7 @@ cd mamo-fall-2026/
 python3 -m venv venv  # создать виртуальное окружение
 source venv/bin/activate  # активировать окружение; в Windows: venv\Scripts\activate
 pip install -r requirements.txt  # установить зависимости
-jupyter notebook  # открыть Jupyter в браузере и выбрать блокнот в practices/
+jupyter notebook  # открыть Jupyter в браузере и выбрать блокнот в practices/ или self-study/
 ```
 
 Чтобы получить новые материалы, в папке репозитория выполните `git pull`. Блокноты сами создают рядом с собой папку `data/` с наборами данных.
